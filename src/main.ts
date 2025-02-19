@@ -9,7 +9,7 @@ async function bootstrap() {
   app.enableCors({
     origin: 'https://fullstack-auth-nest-nextjs-1.onrender.com/', // Altere para o URL do seu frontend
     methods: 'GET,POST,PATCH,PUT,DELETE',
-    allowedHeaders: 'Content-Type, Authorization',
+    // allowedHeaders: 'Content-Type, Authorization',
     credentials: true,
   });
 
